@@ -1,0 +1,41 @@
+.container {
+    width: 1200px;
+}
+
+#header {
+    width: 1200px;
+    height: 156px;
+    background: lemonchiffon;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header h1 {
+    float: left;
+    margin-left: 66px;
+    margin-top: 19px;
+    font-size: 26px;
+}
+
+#nav ul li {
+    list-style-type: none;
+    float : right;
+    margin-right: 30px;
+    display: inline-block;
+}
+
+#nav ul li:list-child {
+    margin-right: 28px;
+}    
+
+#footer {
+    width: 1200px;
+    height: 153px;
+    background: #000;
+    opacity: 0.1;
+    text-align: center;
+    padding-top: 68px;
+    padding-bottom: 67px;
+    color: white;
+    clear: both;;
+}
